@@ -53,7 +53,9 @@ export default function Country(){
         </div>
 
         {filteredCountries.map(c => (
-        <div style={{border: "1px solid grey",
+        <div 
+        className="countryCard"    
+        style={{border: "1px solid grey",
           borderRadius:"10%",
           height : "150px",
           width : "150px",
